@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('/in', function () {
+//     return view('index');
+// });
+
+// Route::fallback(function () {
+//     return view('not');
+// });
+
+// Route::get('mhs/{no}', function ($no) {
+//     echo "ini halaman informasi mahasiswa dengan no $no";
+// });
+
+// Route::get('/hai/haii/haii', function () {
+//     echo "hello every body";
+// });
