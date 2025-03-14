@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}">
     <title>Document</title>
 </head>
+</head>
 <body>
     <h2>List Mahasiswa Kelas ik {{$kelas}} </h2>
     <ol>

@@ -41,6 +41,7 @@
             <div class="alert alert-danger d-inline-block">{{$val}}</div>
         @endforeach --}}
 
+        {{--cara erix--}}
         @forelse ($nilai2 as $value)
             @if(($value >=0) and ($value <=49))
                 <div class="alert alert-danger d-inline-block">{{$value}}</div>
@@ -51,9 +52,31 @@
             <div class="alert alert-secondary d-inline-block">Data Tidak Ada</div>
         @endforelse
 
+        {{-- cara AI !!
+        @forelse ($nilai2 as $value)
+            @if(($value >=0) and ($value <=49))
+                <div class="alert alert-danger d-inline-block">{{$value}}</div>
+            @elseif(($value >=50) and ($value <=100))
+                <div class="alert alert-success d-inline-block">{{$value}}</div>
+            @endif
+            @empty
+            <div class="alert alert-secondary d-inline-block">Data Tidak Ada</div>
+        @endforelse
+        --}}
 
+        <hr>
 
-
+        {{-- break continue --}}
+         @forelse ($nilai2 as $val2)
+         @if ($val2 <= 50)
+            @continue
+         @endif
+            <div class="alert alert-success d-inline-block">
+                {{$val2}}
+            </div>   
+            @empty
+                <div class="alert alert-secondary d-inline-block"> data takde </div>       
+        @endforelse
 
     </div>
 
