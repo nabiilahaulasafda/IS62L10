@@ -41,6 +41,15 @@ Route::get('/', function () {
 //     return view('mahasiswa.index',compact('kelas','data'));
 // });
 
+// Route::get('/mahasiswa', function () {
+//     $nama = "Herdio Saputra";
+//     $nilai = -40;
+
+//     $nilai2 = [85,70,50,70,35,100];
+
+//     return view('mahasiswa',compact('nama','nilai','nilai2'));
+// });
+
 Route::get('/mahasiswa', function () {
     $data_mhs = ["Abdul","Adha","Aidil","Alif","Asfal"];
     return view('layout.mahasiswa',compact('data_mhs'));

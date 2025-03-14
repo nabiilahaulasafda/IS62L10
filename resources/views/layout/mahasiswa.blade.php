@@ -21,10 +21,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Mahasiswa</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Dosen</a>
+                <a class="nav-link" href="/dosen">Dosen</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Galeri</a>
+                <a class="nav-link" href="/galeri">Galeri</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
